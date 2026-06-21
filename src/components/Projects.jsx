@@ -55,6 +55,23 @@ function Projects() {
 
                 <p>{project.role}</p>
 
+                <div className="mt-3">
+                  {project.githubLink ? (
+                    <a
+                      href={project.githubLink}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-dark"
+                    >
+                      GitHub Repository
+                    </a>
+                  ) : (
+                    <span className="badge bg-secondary">
+                      Private Project
+                    </span>
+                  )}
+                </div>
+
               </div>
             </div>
           </div>
