@@ -1,0 +1,41 @@
+.skills-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* Card */
+.skill-card {
+  background-color: rgba(2, 6, 23, 0.85) !important;
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(6px);
+
+  /* 🔥 FORCE TEXT COLOR */
+  color: #e2e8f0 !important;
+}
+
+/* Hover */
+.skill-card:hover {
+  transform: translateY(-5px);
+  border-color: #38bdf8;
+}
+
+/* Icon */
+.skill-icon {
+  font-size: 2rem;
+  color: #38bdf8;
+}
+
+/* 🔥 TEXT FIX */
+.skill-text {
+  color: #e2e8f0 !important;
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+/* 🔥 ALSO FIX HEADING */
+.skills-section h2 {
+  color: #f1f5f9 !important;
+}

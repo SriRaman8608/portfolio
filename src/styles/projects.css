@@ -1,0 +1,64 @@
+.projects-section {
+  background-color: transparent;
+}
+
+/* Section titles */
+.section-title {
+  color: #38bdf8;
+  font-weight: 600;
+}
+.projects-section h2 {
+  color: #f1f5f9;
+}
+/* Card */
+.project-card {
+  background: rgba(2, 6, 23, 0.85);
+  border: 1px solid #1e293b;
+  border-radius: 10px;
+  overflow: hidden;
+  backdrop-filter: blur(6px);
+}
+
+/* Accordion Button */
+.accordion-button {
+  background-color: transparent !important;
+  color: #1c1e1f !important;
+  font-weight: 600;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  color: #38bdf8 !important;
+  box-shadow: none;
+}
+
+/* Arrow */
+.accordion-button::after {
+  filter: invert(1);
+}
+
+/* Body */
+.accordion-body {
+  color: #5a616a;
+}
+
+/* Description */
+.project-desc {
+  color: #e2e8f0;
+}
+
+/* Headings */
+.project-card h6 {
+  color: #38bdf8;
+  margin-top: 10px;
+}
+
+/* List */
+.project-card li {
+  color: #0d0d0e;
+}
+
+/* Paragraph */
+.project-card p {
+  color: #0d0d0e;
+}

@@ -1,0 +1,37 @@
+/* Wrapper */
+.about-wrapper {
+  background: rgba(2, 6, 23, 0.75);
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+
+  backdrop-filter: blur(8px);
+}
+
+/* 🔥 MAIN HEADING */
+.about-wrapper h2 {
+  color: #f1f5f9; /* bright light */
+  font-weight: 600;
+}
+
+/* Subtitle */
+.about-subtitle {
+  color: #38bdf8; /* accent */
+  font-weight: 600;
+}
+
+/* Paragraph text */
+.about-wrapper p {
+  color: #e2e8f0; /* proper light text */
+  max-width: 650px;
+  margin: 10px auto;
+  line-height: 1.6;
+}
+
+/* Section spacing */
+.about-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
